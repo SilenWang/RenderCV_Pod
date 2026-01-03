@@ -1,7 +1,7 @@
 {
   "name": "RenderCV_Pod",
   "build": { "dockerfile": "Dockerfile" },
-  "postCreateCommand": "pixi run deploy",
+  "postCreateCommand": "pixi install -a",
   "customizations": {
     "vscode": {
       "settings": {
