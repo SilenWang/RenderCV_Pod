@@ -12,7 +12,7 @@
         // 可以在此处指定需要自动安装的扩展ID
         "naumovs.color-highlight",
         "tamasfe.even-better-toml",
-        "wytheglobal.pdfmore",
+        "adamraichu.pdf-viewer",
         "redhat.vscode-yaml"
       ]
     }
