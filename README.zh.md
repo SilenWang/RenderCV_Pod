@@ -1,6 +1,6 @@
 # RenderCV Pod
 
-English(README.md) | 中文
+English(../README.md) | 中文
 
 ## 为什么有这个项目
 
