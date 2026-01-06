@@ -11,7 +11,7 @@
       "extensions": [
         "naumovs.color-highlight",
         "tamasfe.even-better-toml",
-        "adamraichu.pdf-viewer",
+        "mathematic.vscode-pdf",
         "redhat.vscode-yaml"
       ]
     }
