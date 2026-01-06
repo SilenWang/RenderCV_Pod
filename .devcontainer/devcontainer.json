@@ -2,14 +2,13 @@
   "name": "RenderCV_Pod",
   "build": { "dockerfile": "Dockerfile" },
   "postCreateCommand": "pixi install -a",
+  "waitFor": "postCreateCommand",
   "customizations": {
     "vscode": {
       "settings": {
-        // 外观与主题
         "workbench.colorTheme": "Solarized Dark"
       },
       "extensions": [
-        // 可以在此处指定需要自动安装的扩展ID
         "naumovs.color-highlight",
         "tamasfe.even-better-toml",
         "adamraichu.pdf-viewer",
