@@ -3,6 +3,18 @@
   "build": { "dockerfile": "Dockerfile" },
   "postCreateCommand": "pixi install -a",
   "waitFor": "postCreateCommand",
+  "remoteEnv": {
+    "DEEPSEEK_API_KEY": "${localEnv:DEEPSEEK_API_KEY}",
+    "OPENAI_API_KEY": "${localEnv:OPENAI_API_KEY}",
+    "ANTHROPIC_API_KEY": "${localEnv:ANTHROPIC_API_KEY}",
+    "AIDER_DARK_MODE": "true",
+    "AIDER_CODE_THEME": "solarized-dark",
+    "AIDER_AUTO_COMMITS": "false",
+    "AIDER_SHOW_MODEL_WARNINGS": "false",
+    "AIDER_DETECT_URLS": "false",
+    "AIDER_YES_ALWAYS": "true",
+    "AIDER_CHECK_UPDATE": "false"
+  },
   "customizations": {
     "vscode": {
       "settings": {
