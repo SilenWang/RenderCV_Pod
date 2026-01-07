@@ -35,7 +35,7 @@
 
 ### 编辑配置
 
-You can refer to [RenderCV Document](https://docs.rendercv.com/) to create and edit your config file
+可以参照 [RenderCV 官方文档](https://docs.rendercv.com/) 来创建和编辑配置文件
 
 ### 在Aider辅助下编辑配置
 
