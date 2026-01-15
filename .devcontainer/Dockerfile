@@ -5,6 +5,8 @@ RUN curl -L -o /usr/local/bin/pixi -fsSL --compressed "https://github.com/prefix
   && chmod +x /usr/local/bin/pixi \
   && pixi info
 
+RUN curl -fsSL https://opencode.ai/install | bash
+
 USER vscode
 WORKDIR /home/vscode
   
