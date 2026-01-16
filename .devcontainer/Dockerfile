@@ -7,5 +7,6 @@ RUN curl -L -o /usr/local/bin/pixi -fsSL --compressed "https://github.com/prefix
 
 USER vscode
 WORKDIR /home/vscode
-  
+
+RUN curl -fsSL https://opencode.ai/install | bash
 RUN echo 'eval "$(pixi completion -s bash)"' >> /home/vscode/.bashrc
